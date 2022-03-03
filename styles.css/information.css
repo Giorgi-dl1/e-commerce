@@ -1,0 +1,81 @@
+.information{
+    padding: 1rem 1.5rem 5rem 1.75rem;
+}
+.company-name{
+    text-transform: uppercase;
+    font-size:.75rem;
+    letter-spacing: 2px;
+    color: var(--Orange);
+    font-weight: bold;
+}
+.heading{
+    margin-top:.7rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+.comment{
+    font-size: .92rem;
+    line-height: 1.47rem;
+    color: var(--Dark-grayish-blue);
+    margin-top: .9rem;
+}
+.pricing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.current-sale{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.7rem;
+}
+.current-price{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--Very-dark-blue);
+}
+.sale{
+    color: var(--Orange);
+    font-weight: bold;
+    background-color: var(--Pale-orange);
+    padding: .1rem .4rem;
+    border-radius: 5px;
+}
+.price-before{
+    color: var(--Grayish-blue);
+    font-weight: bold;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--Light-grayish-blue);
+    padding:1rem;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 1.3rem;
+}
+.counter img{
+    cursor: pointer;
+}
+.add-to{
+    display: flex;
+    background-color: var(--Orange);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 1rem 0;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 0 3px 10px var(--Orange);
+}
+.add-to img{
+    filter: brightness(4);
+}
+.add-to:hover,.counter img:hover{
+    opacity: 0.7;
+}

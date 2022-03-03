@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="script.js" defer></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css/style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+    <div class="hamburger-logo">
+      <div class="hamburger">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+      </div>
+      <img src="/images/logo.svg" alt="logo" class="logo">
+    </div>
+    <div class="menu-container">
+      <div class="menu">
+          <img class='icon-close'src="images/icon-close.svg" alt="icon-close">
+         <ul>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cart-avatar">
+      <div class="cart-icon">
+        <img src="images/icon-cart.svg" alt="cart icon">
+        <div class="cart-item-count quantity passive">3</div>
+      </div>
+      
+      <div class="avatar">
+        <img src="/images/image-avatar.png" alt="avatar">
+      </div>
+    </div>
+    
+    <div class="cart-container passive">
+      <div class="cart-header">
+        <h4>Cart</h4>
+      </div>
+      <div class="cart-content passive">
+        <div class="price-content">
+          <img class='cart-image'src="/images/image-product-1-thumbnail.jpg" alt="item image">
+        <div class="cart-heading-price">
+          <div class="cart-heading">Autumn Limited Edition...</div>
+          <div class="cart-pricing">
+            <div class="single-price">$125.00 x</div>
+            <div class="count quantity">3</div>
+            <div class="full-price">$375.00</div>
+          </div>
+        </div>
+        <img class='delete-icon'src="/images/icon-delete.svg" alt="icon-delete">
+        </div>
+        <div class="checkout">Checkout</div>
+      </div>
+      <div class="cart-empty ">
+        <h4>Your cart is empty.</h4>
+      </div>
+    </div>
+    </header>
+    <div class="main-content">
+      <div class="lightbox">
+        <img class="product-image" src="/images/image-product-1.jpg" alt="product image">
+        <div class="previous arrow">
+          <img src="/images/icon-previous.svg" alt="previous arrow">
+        </div>
+        <div class="next arrow">
+          <img src="/images/icon-next.svg" alt="next arrow">
+        </div>
+        <div class="thumbnail">
+          <img src="/images/image-product-1-thumbnail.jpg" alt="thumbnail-item" class="thumbnail-item active">
+          <img src="/images/image-product-2-thumbnail.jpg" alt="thumbnail-item" class="thumbnail-item">
+          <img src="/images/image-product-3-thumbnail.jpg" alt="thumbnail-item" class="thumbnail-item">
+          <img src="/images/image-product-4-thumbnail.jpg" alt="thumbnail-item" class="thumbnail-item">
+        </div>
+      </div>
+
+      <div class="inc-lightbox passive">
+        <div class="close-inc">
+           <img class="close-icon-inc" src="images/icon-close.svg" alt="close icon">
+        </div>
+        <img class="product-image-inc" src="/images/image-product-1.jpg" alt="product image">
+        <div class="thumbnail-inc">
+          <img src="/images/image-product-1-thumbnail.jpg" alt="thumbnail-item" class="thumbnail-item-inc">
+          <img src="/images/image-product-2-thumbnail.jpg" alt="thumbnail-item" class="thumbnail-item-inc">
+          <img src="/images/image-product-3-thumbnail.jpg" alt="thumbnail-item" class="thumbnail-item-inc">
+          <img src="/images/image-product-4-thumbnail.jpg" alt="thumbnail-item" class="thumbnail-item-inc">
+        </div>
+      </div>
+
+      <div class="information">
+        <div class="heading-comment">
+          <div class="company-name"><p>Sneaker Company</p></div>
+          <div class="heading">
+            <h2>Fall Limited Edition Sneakers</h2>
+          </div>
+          <div class="comment">
+            <p> These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+          </div>
+        </div>
+        <div class="pricing">
+          <div class="current-sale">
+            <div class="current-price">$125.00</div>
+            <div class="sale">50%</div>
+          </div>
+          <div class="price-before"><s>$250.00</s></div>
+        </div>
+        <div class="add-cart">
+          <div class="counter">
+            <img class="minus"src="/images/icon-minus.svg" alt="icon-minus">
+            <div class="item-count">0</div>
+            <img class="plus"src="/images/icon-plus.svg" alt="icon-plus">
+          </div>
+          <div class="add-to">
+            <img src="/images/icon-cart.svg" alt="cart-icon">
+            <p>Add to cart</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Collections
+  
+  
+
+  
+
+ 
+
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart -->
+
+</body>
+</html>

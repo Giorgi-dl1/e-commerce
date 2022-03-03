@@ -1,0 +1,41 @@
+.lightbox{
+    width: 100vw;
+    position: relative;
+}
+.lightbox img{
+    width: 100%;
+}
+.arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: var(--White);
+    padding: .8rem 1rem;
+    width:40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 50%;
+}
+.next{
+    right: .7rem;
+    transition: right .5s ease;
+}
+.previous{
+    left: .7rem;
+     transition: left .5s ease;
+}
+.next:hover{
+    right: .5rem;
+   
+}
+.previous:hover{
+    left:.5rem;
+}
+.thumbnail{
+    display: none;
+}
+.inc-lightbox{
+    display: none;
+}
